@@ -1,12 +1,13 @@
+/* a program that uses puts function to display output*/
 #include<stdio.h>
 
 /**
- * main: is the entry point
+ * main - entry point
  *
- * return: is 0
+ * return: always 0 (sucess)
  */
 int main(void)
 {
 	puts("   \  "Programming is like building a multilingual puzzle);
-return (0);
+	return (0);
 }
