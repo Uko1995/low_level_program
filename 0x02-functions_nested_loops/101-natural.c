@@ -18,7 +18,7 @@ int main(void)
 			int sum;
 
 			sum += i;
-			_putchar('SUM is ' + sum);
+			prinf("%d\n", sum);
 		}
 	}
 	return (0);
