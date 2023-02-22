@@ -18,7 +18,7 @@ int main(void)
 			int sum;
 
 			sum += i;
-			printf("The sum of the multiples is \n", sum);
+			_putchar('SUM is ' + sum);
 		}
 	}
 	return (0);
