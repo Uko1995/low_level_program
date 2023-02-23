@@ -24,6 +24,8 @@ int main(void)
 		{
 			printf(" FizzBuzz");
 		}
+		else if (i == 1)
+			printf("%d", a);
 		else
 			printf(" %d", a);
 	}
