@@ -13,3 +13,5 @@ reverses the contents of an array
 changes all lowercase characters of a string to uppercase
 6-cap_string.c
 capitalizes all words in the string
+7-leet.c
+function encodes a string into 1337
