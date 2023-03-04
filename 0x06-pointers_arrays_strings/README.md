@@ -9,3 +9,5 @@ function copies a string
 compares two strings
 4-rev_array
 reverses the contents of an array
+5-string_toupper.c
+changes all lowercase characters of a string to uppercase
