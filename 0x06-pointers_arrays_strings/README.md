@@ -17,3 +17,5 @@ capitalizes all words in the string
 function encodes a string into 1337
 100-rot13.c
 encodes a string based on rot13
+101-print_number.c 
+a function that prints an integer.
