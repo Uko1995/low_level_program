@@ -15,3 +15,5 @@ changes all lowercase characters of a string to uppercase
 capitalizes all words in the string
 7-leet.c
 function encodes a string into 1337
+100-rot13.c
+encodes a string based on rot13
