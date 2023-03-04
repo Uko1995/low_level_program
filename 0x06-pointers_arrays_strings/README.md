@@ -5,3 +5,5 @@ concatenate two strings and add a null chaacter at the end, return pointer to th
 > concatenates two strings and adda a null character, returns pointer to string
 2-strcpy.c
 function copies a string
+3-strcmp.c
+compares two strings
