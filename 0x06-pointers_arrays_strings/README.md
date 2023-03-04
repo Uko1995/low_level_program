@@ -7,3 +7,5 @@ concatenate two strings and add a null chaacter at the end, return pointer to th
 function copies a string
 3-strcmp.c
 compares two strings
+4-rev_array
+reverses the contents of an array
