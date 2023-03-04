@@ -1,21 +1,23 @@
 #include "main.h"
 
 /**
- * *_strcat - function that concatenates two stringsand adds a null character
- * @dest: input
- * @src: input
- *
- * Return: void
+ * _strcat - concatenates two strings
+ * @dest: input value
+ * @src: input value
+ * Return: pointer to string
  */
 
 char *_strcat(char *dest, char *src)
+
 {
-	int i, j;
+	int i;
+	int j;
 
 	i = 0;
 	while (dest[i] != '\0')
+	{
 		i++;
-
+	}
 	j = 0;
 	while (src[j] != '\0')
 	{
