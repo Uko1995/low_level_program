@@ -7,3 +7,5 @@ function copies memory area.
 function locates a character in a string
 3-strpn.c
 function gets the length of a prefix substring
+3-strpn.c
+function gets the length of a prefix substring
