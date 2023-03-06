@@ -22,6 +22,8 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			f += 1;
 			num += 1;
+			break;
+		i++;
 	}
 	return (num);
 }
