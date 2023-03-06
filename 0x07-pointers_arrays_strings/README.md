@@ -5,3 +5,5 @@ a function that fills memory with a constant byte.
 function copies memory area.
 2-strchr.c
 function locates a character in a string
+3-strpn.c
+function gets the length of a prefix substring
