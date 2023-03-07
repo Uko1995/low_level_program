@@ -13,3 +13,5 @@ function gets the length of a prefix substring
 function searches a string for any set of bytes
 5-strstr.c
 function locates a substring
+7-print_chessboard
+function prints the chess board
