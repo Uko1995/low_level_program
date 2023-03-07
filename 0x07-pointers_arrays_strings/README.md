@@ -11,3 +11,5 @@ function gets the length of a prefix substring
 function gets the length of a prefix substring
 4-strpbrk.c
 function searches a string for any set of bytes
+5-strstr.c
+function locates a substring
