@@ -15,3 +15,5 @@ function searches a string for any set of bytes
 function locates a substring
 7-print_chessboard
 function prints the chess board
+8-print_diagrams.c
+ function that prints the sum of the two diagonals of a square matrix of integers.
