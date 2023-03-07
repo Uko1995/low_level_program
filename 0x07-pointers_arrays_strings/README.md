@@ -9,3 +9,5 @@ function locates a character in a string
 function gets the length of a prefix substring
 3-strpn.c
 function gets the length of a prefix substring
+4-strpbrk.c
+function searches a string for any set of bytes
