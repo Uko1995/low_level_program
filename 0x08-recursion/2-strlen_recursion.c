@@ -20,8 +20,7 @@ int _strlen_recursion(char *s)
 	else
 	{
 		s[i]++;
-		num =  1 + _strlen_recursion(*s[i + 1]);
+		num += _strlen_recursion(s[i + 1]);
 	}
-	return (num)
-		return (num);
+	return (num);
 }
