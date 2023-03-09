@@ -5,3 +5,5 @@ function prints a string followed by a new line.
 function prints a string in reverse.
 2-strlen_recursion
 returns the length of a string
+3-factorial
+returns the factorial of a number
