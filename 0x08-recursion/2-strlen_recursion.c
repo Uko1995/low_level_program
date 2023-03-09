@@ -7,20 +7,16 @@
  * Return: number of bytes
  */
 
+
 int _strlen_recursion(char *s)
 {
-	unsigned int i, num;
+	int longit = 0;
 
-	i = num = 0;
+	if (*s)
+	{
+		longit++;
+		longit += _strlen_recursion(s + 1);
+	}
 
-	if (s[i] == '\0')
-	{
-		return (0);
-	}
-	else
-	{
-		s[i]++;
-		num += _strlen_recursion(s[i + 1]);
-	}
-	return (num);
+	return (longit);
 }
