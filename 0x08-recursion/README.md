@@ -7,3 +7,5 @@ function prints a string in reverse.
 returns the length of a string
 3-factorial
 returns the factorial of a number
+4-pow_recursion.c
+returns x raised to the power of y
