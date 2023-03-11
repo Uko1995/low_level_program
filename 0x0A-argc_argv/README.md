@@ -5,3 +5,5 @@ prints the name of the program followed by a new line
 prints the number of arguments followed by a new line
 2-args.c
 prints all arguments it recieves
+3-mul.c
+multiplies two numbers
