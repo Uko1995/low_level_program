@@ -11,21 +11,15 @@
  */
 
 int main(int argc, char *argv[])
-{
-	int x , y, result;
-
-	x = atoi(argv[1]);
-	y = atoi(argv[2]);
-	result = x * y;
 
 	if (argc == 3)
 	{
-		printf("%d\n", result);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		return (0);
 	}
 	else
 	{
 		printf("Error\n");
 		return (1);
 	}
-	return (0);
 }
