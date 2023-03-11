@@ -7,3 +7,5 @@ prints the number of arguments followed by a new line
 prints all arguments it recieves
 3-mul.c
 multiplies two numbers
+4-add.c
+adds positive numbers
