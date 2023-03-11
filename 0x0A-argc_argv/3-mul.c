@@ -12,9 +12,11 @@
 
 int main(int argc, char *argv[])
 {
-	int result;
+	int x , y, result;
 
-	result = atoi(argv[1] * argv[2]);
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
+	result = x * y;
 
 	if (argc == 3)
 	{
@@ -22,7 +24,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("ERROR\n");
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
