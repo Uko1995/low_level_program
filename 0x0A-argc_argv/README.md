@@ -9,3 +9,5 @@ prints all arguments it recieves
 multiplies two numbers
 4-add.c
 adds positive numbers
+100-change.c
+prints the minimum number of coins to make change for an amount of money
