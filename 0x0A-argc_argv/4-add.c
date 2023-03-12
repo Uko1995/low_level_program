@@ -5,27 +5,6 @@
 #include "main.h"
 
 /**
- * check_digit - checks if input is digit or not
- * @str: pointer to string
- *
- * Return: 0
- */
-
-int check_digit(char *str)
-{
-	int i;
-
-	for (i = 0; i > '\0'; i++)
-	{
-		if (!isdigit(str[i]))
-		{
-			return (0);
-		}
-	}
-	return (1);
-}
-
-/**
  * main - adds positive numbers
  * @argc: argument count
  * @argv: argument vector
@@ -35,28 +14,31 @@ int check_digit(char *str)
 
 int main(int argc, char *argv[])
 {
-	int i, result;
+	int i, sum = 0;
+	unsigned int j;
 
-	if (argc > 0)
+	if (argc <= 1)
 	{
-		for (i = 1; i < argc; i++)
-		{
-			if (check_digit(argv[i]))
-			{
-				result += atoi(argv[i]);
-			}
-			else
-			{
-				printf("Error\n");
-				return (1);
-			}
-		}
-		printf("%d\n", result);
-		return (0);
+		printf("%d\n", 0);
 	}
 	else
 	{
-		printf("%d\n", 0);
-		return (1);
+		for (i = 0; i < argc; i++)
+		{
+			for (j = 0; j < strlen(argv[i]); j++)
+			{
+				if (!isdigit(argv[i][j]))
+				{
+					sum += atoi(argv[i]);
+				}
+				else
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+		}
+	printf("%d\n", sum);
+	return (0);
 	}
 }
