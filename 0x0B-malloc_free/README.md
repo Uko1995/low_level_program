@@ -3,3 +3,5 @@ Malloc and free
 creates an array of chars, and initializes it with a specific char
 1-strdup.c
 returns a pointer to a newly allocated space in memory
+2-str_concat.c
+concatenates two strings
