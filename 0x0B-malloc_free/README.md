@@ -5,3 +5,5 @@ creates an array of chars, and initializes it with a specific char
 returns a pointer to a newly allocated space in memory
 2-str_concat.c
 concatenates two strings
+3-alloc_grid
+returns a pointer to a 2 dimensional array of integers
