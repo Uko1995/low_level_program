@@ -1,29 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
 
-/**
- * char *_strcpy - a function that copies the string pointed to by src
- * @dest: copy to
- * @src: copy from
- * Return: string
- */
-
-char *_strcpy(char *dest, char *src)
-{
-	int l = 0;
-	int x = 0;
-
-	while (src[l] != '\0')
-	{
-		l++;
-	}
-	for ( ; x < l ; x++)
-	{
-		dest[x] = src[x];
-	}
-	dest[l] = '\0';
-	return (dest);
-}
 
 /**
  * _strdup - returns a pointer to a newly allocated space in memory
@@ -43,10 +20,10 @@ char *_strdup(char *str)
 	d  = malloc(sizeof(str) * a);
 	free(d);
 
-	if (s == NULL)
+	if (d == NULL)
 		return (NULL);
 	for (b = 0; b < a; b++)
-		_strcpy(*d, *str);
+		d[b] = str[b];
 
 	return (d);
 }
