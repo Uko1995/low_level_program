@@ -29,5 +29,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	strncat(new, s2, n);
 
+	new[strlen(s1) + n] = '\0';
+
 	return (new);
 }
