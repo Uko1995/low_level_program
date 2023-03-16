@@ -12,3 +12,5 @@ concatenate two strings.
 2-calloc.c
 allocates memory for an array, using malloc.
 
+3-array_range  
+creates an array of integers.
