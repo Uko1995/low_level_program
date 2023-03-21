@@ -12,10 +12,10 @@
 void print_dog(struct dog *d)
 {
 	if (d->name == NULL)
-		d->name = "(nil)";
+		printf("(nil)\n");
 
 	if (d->owner == NULL)
-		d->owner = "(nil)";
+		printf("(nil)\n");
 	if (d == NULL)
 		return;
 	printf("Name: %s\n", d->name);
