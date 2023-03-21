@@ -11,3 +11,5 @@ dog.h
 Define a new type dog_t as a new name for the type struct dog
 4-new_dog.c 
 creates a new dog
+5-free_dog.c
+Write a function that frees dogs.
