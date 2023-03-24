@@ -4,41 +4,32 @@
 /**
  * print_all - prints anything
  * @format:  list of types of arguments passed to the function
- *
  * Return: void
  */
 void print_all(const char * const format, ...)
 {
 	va_list ap;
 	char *s;
-	float f;
-	int i ;
-	char c;
-
 	const char *p = format;
+
 	va_start(ap, format);
 	while (format == NULL)
 	{
 		printf("\n");
 		return;
 	}
-
-
 	while (*p)
 	{
 		switch (*p)
 		{
 			case 'i':
-				i = va_arg(ap, int);
-				printf("%d", i);
+				printf("%d", va_arg(ap, int));
 				break;
 			case 'c':
-				c = va_arg(ap, int);
-				printf("%c", c);
+				printf("%c", va_arg(ap, int));
 				break;
 			case 'f':
-				f = va_arg(ap, double);
-				printf("%f", f);
+				printf("%f", va_arg(ap, double));
 				break;
 			case 's':
 				s = va_arg(ap, char *);
