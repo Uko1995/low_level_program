@@ -10,14 +10,19 @@
 void print_all(const char * const format, ...)
 {
 	va_list ap;
-	unsigned int i;
 	char *s;
-	char c;
 	float f;
+	int i ;
+	char c;
 
 	const char *p = format;
-
 	va_start(ap, format);
+	while (format == NULL)
+	{
+		printf("\n");
+		return;
+	}
+
 
 	while (*p)
 	{
@@ -46,7 +51,6 @@ void print_all(const char * const format, ...)
 		if (*p && (*p == 'i' || *p == 'c' || *p == 'f' || *p == 's'))
 			printf(", ");
 	}
-
 	va_end(ap);
 	printf("\n");
 }
